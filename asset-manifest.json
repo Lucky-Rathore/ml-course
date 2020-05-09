@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ml-course/static/css/main.5f361e03.chunk.css",
+    "main.js": "/ml-course/static/js/main.5a77208f.chunk.js",
+    "main.js.map": "/ml-course/static/js/main.5a77208f.chunk.js.map",
+    "runtime-main.js": "/ml-course/static/js/runtime-main.4b68cb28.js",
+    "runtime-main.js.map": "/ml-course/static/js/runtime-main.4b68cb28.js.map",
+    "static/js/2.2009e4bd.chunk.js": "/ml-course/static/js/2.2009e4bd.chunk.js",
+    "static/js/2.2009e4bd.chunk.js.map": "/ml-course/static/js/2.2009e4bd.chunk.js.map",
+    "index.html": "/ml-course/index.html",
+    "precache-manifest.8f4ff65ed0a042cea0a3df8e3578f9de.js": "/ml-course/precache-manifest.8f4ff65ed0a042cea0a3df8e3578f9de.js",
+    "service-worker.js": "/ml-course/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/ml-course/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.2009e4bd.chunk.js.LICENSE.txt": "/ml-course/static/js/2.2009e4bd.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4b68cb28.js",
+    "static/js/2.2009e4bd.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.5a77208f.chunk.js"
+  ]
+}
