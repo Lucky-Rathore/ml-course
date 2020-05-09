@@ -18,17 +18,17 @@ export default class Pricing extends Component {
             if(data.country_code == "IN")
             {
                 this.setState({
-                    p1: "Rs. 460",
-                    p2: "Rs. 2460",
-                    p3: "Rs. 4960"
+                    p1: "Rs. 2460",
+                    p2: "Rs. 8,460",
+                    p3: "Rs. 14,460"
                 });
             }
             else
             {
                 this.setState({
-                    p1: "$ 46",
-                    p2: "$ 196",
-                    p3: "$ 496"
+                    p1: "$ 290",
+                    p2: "$ 690",
+                    p3: "$ 1460"
                 });
             }
         }).catch((error) => {
@@ -93,7 +93,7 @@ export default class Pricing extends Component {
                                         <li>Support</li>
                                     </ul>
                                     <p className="text-center">
-                                        <a href="./buy-now" className="btn btn-secondary">Buy Now</a>
+                                        <a href="/#/contact-us" className="btn btn-secondary">Buy Now</a>
                                     </p>
                                 </div>
                             </div>
@@ -111,7 +111,7 @@ export default class Pricing extends Component {
                                         <li>premium support</li>
                                     </ul>
                                     <p className="text-center">
-                                        <a href="./buy-now" className="btn btn-primary">Buy Now</a>
+                                        <a href="/#/contact-us" className="btn btn-primary">Buy Now</a>
                                     </p>
                                 </div>
                             </div>
@@ -129,7 +129,7 @@ export default class Pricing extends Component {
                                         <li>Custom contracts and SLAs</li>
                                     </ul>
                                     <p className="text-center">
-                                        <a href="./buy-now" className="btn btn-secondary">Buy Now</a>
+                                        <a href="/#/contact-us" className="btn btn-secondary">Buy Now</a>
                                     </p>
                                 </div>
                             </div>

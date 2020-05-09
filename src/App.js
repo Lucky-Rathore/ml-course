@@ -4,13 +4,11 @@ import Pricing from './component/Pricing';
 import Contact from './component/Contact';
 import Footer from './component/Footer';
 import Home from './component/Home';
-import Faq from './component/Faq';
 import Header from './component/Header';
 import {
-  BrowserRouter as Router,
+  HashRouter,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import ScrollToTop from './component/ScrollToTop';
 
@@ -33,20 +31,19 @@ function App() {
             </div>
             <div className="site-mobile-menu-body" />
           </div>
-          
-          <Router>
-          <Header></Header>
+
+          <HashRouter basename='/'>
+            <Header></Header>
             <Fragment>
               <ScrollToTop />
               <Switch>
-                <Route path="/FAQ" component={Faq} />
-                <Route path="/Contact-Us" component={Contact} />
-                <Route path="/pricing" component={Pricing} />
+                <Route path="/apply-now" component={Contact} />
+                <Route path="/contact-us" component={Contact} />
+                <Route path="/Curriculum" component={Pricing} />
                 <Route path="/" component={Home} />
               </Switch>
             </Fragment>
-          </Router>
-
+          </HashRouter>
           <Footer></Footer>
         </div>
       </div>
